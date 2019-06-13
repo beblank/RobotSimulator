@@ -1,4 +1,14 @@
 # RobotSimulator
+
+## Getting Started
+* Install [Nodejs](https://nodejs.org/en/) 
+* Open terminal
+* Run
+```
+node app.js
+```
+* Type input using terminal
+
 ## Rules of engagement:
 The problem must be solved using nodejs or Java
 Please provide your source code, and any test code/data you using in developing your solution.
@@ -63,17 +73,5 @@ REPORT
 Output: 3,3,NORTH
 ```
 
-
-
-## Getting Started
-* Install [Nodejs](https://nodejs.org/en/) 
-* Open terminal
-* Run
-```
-node app.js
-```
-* Type input using terminal
-
-
 ## Built With
-* [Nodejs](https://nodejs.org/en/) - The web framework used
+* [Nodejs](https://nodejs.org/en/)
