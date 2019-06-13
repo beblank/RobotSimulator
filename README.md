@@ -1,5 +1,5 @@
 # RobotSimulator
-Rules of engagement:
+## Rules of engagement:
 The problem must be solved using nodejs or Java
 Please provide your source code, and any test code/data you using in developing your solution.
 Please engineer your solution to a standard you consider suitable for production. It is not required to
@@ -15,11 +15,11 @@ be allowed.
 
 ## Objectives
 * Create an application that can read in commands of the following form -
-PLACE X,Y,F
-MOVE
-LEFT
-RIGHT
-REPORT
+PLACE X,Y,F </br>
+MOVE </br>
+LEFT </br>
+RIGHT </br>
+REPORT </br>
 
 * PLACE will put the toy robot on the table in position X,Y and facing NORTH, SOUTH, EAST or WEST.
 * The origin (0,0) can be considered to be the SOUTH WEST most corner.
