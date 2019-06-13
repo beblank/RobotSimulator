@@ -127,7 +127,9 @@ function checkCommand(input){
     let command = string[0]
     switch(command){
         case commandEnum.PLACE.name:
-            setParam(string[1].split(","))
+            if (string[1] != null){
+                setParam(string[1].split(","))  
+            }
             break
         case commandEnum.MOVE.name:
             moveCommand()
@@ -153,7 +155,7 @@ function inputCommand (){
         output: process.stdout
       })
     readline.question("type command ", (input) => {
-        if (input.split(" ")[0] === commandEnum.PLACE.name){
+        if (input.split(" ")[0] === commandEnum.PLACE.name && input.split(" ")[1] != null){
             isPlaced = true
         }
         if (isPlaced == true){
