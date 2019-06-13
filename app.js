@@ -156,7 +156,6 @@ function inputCommand (){
         if (input.split(" ")[0] === commandEnum.PLACE.name){
             isPlaced = true
         }
-        console.log(`${input.split(" ")[0]} ${isPlaced}`)
         if (isPlaced == true){
             checkCommand(input)
         }
