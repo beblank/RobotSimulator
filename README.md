@@ -14,7 +14,7 @@ be allowed.
 * You need to provide test data/results for the app & its logic
 
 ## Objectives
-* Create an application that can read in commands of the following form -
+* Create an application that can read in commands of the following form - </br>
 PLACE X,Y,F </br>
 MOVE </br>
 LEFT </br>
