@@ -64,6 +64,16 @@ Output: 3,3,NORTH
 ```
 
 
-## Built With
 
+## Getting Started
+* Install [Nodejs](https://nodejs.org/en/) 
+* Open terminal
+* Run
+```
+node app.js
+```
+* Type input using terminal
+
+
+## Built With
 * [Nodejs](https://nodejs.org/en/) - The web framework used
