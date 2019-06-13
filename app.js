@@ -2,6 +2,7 @@ let x = 0
 let y = 0
 let facing = 'NORTH'
 let directionValue = 0
+let isPlaced = false
 
 const FACING = {
     NORTH : {value: 0, name : "NORTH", move: 1, coor:"y"},
@@ -152,7 +153,13 @@ function inputCommand (){
         output: process.stdout
       })
     readline.question("type command ", (input) => {
-        checkCommand(input)
+        if (input.split(" ")[0] === commandEnum.PLACE.name){
+            isPlaced = true
+        }
+        console.log(`${input.split(" ")[0]} ${isPlaced}`)
+        if (isPlaced == true){
+            checkCommand(input)
+        }
         readline.close()
         inputCommand()
   })}
